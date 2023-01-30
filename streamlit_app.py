@@ -43,7 +43,7 @@ except URLError as e:
     streamlit.error()
 
 # snowflake connector imported to execute below lines
-streamlit.header("View Our Fruit list-Add Your Favorites!")
+streamlit.header("View Our Fruit list - Add Your Favorites!")
 #snowflake related functions
 def get_fruit_load_list():
    with my_cnx.cursor() as my_cur:
